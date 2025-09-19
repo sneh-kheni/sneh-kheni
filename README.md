@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
+<h2 align="left">Hi 👋! My name is sneh kheni and I'm a wanna be devloper, from Earth</h2>
 
 ###
 
@@ -53,3 +53,4 @@
 <img src="https://raw.githubusercontent.com/sneh-kheni/sneh-kheni/output/snake.svg" alt="Snake animation" />
 
 ###
+
