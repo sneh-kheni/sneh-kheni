@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is sneh and I'm from Earth</h2>
+<h2 align="left">Hi 👋! My name is sneh and I'm from the Earth</h2>
 
 ###
 
@@ -52,3 +52,4 @@
 </div>
 
 ###
+
