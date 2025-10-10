@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is sneh kheni and I'm from The earth</h2>
+<h2 align="left">Hi 👋! My name is sneh kheni </h2>
 
 ###
 
@@ -47,4 +47,5 @@
 <img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
 
 ###
+
 
