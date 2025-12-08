@@ -1,27 +1,30 @@
 name: Generate Pacman Graph
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Clone repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Pacman Contribution Graph
-        uses: yanglr/pacman-contribution-graph@main
+      - name: Generate Pacman Graph
+        uses: yoshi389111/github-profile-pacman@main
         with:
           github_user_name: sneh-kheni
-          output_path: dist
 
-      - name: Push Pacman to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save pacman graph
+        run: |
+          mkdir -p output
+          mv pacman-contribution-graph.svg output/pacman-contribution-graph.svg
+
+      - name: Commit and push files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add output/pacman-contribution-graph.svg
+          git commit -m "Update pacman graph" || echo "No changes to commit"
+          git push
