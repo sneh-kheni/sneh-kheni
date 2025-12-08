@@ -4,27 +4,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Pacman Graph
-        uses: yoshi389111/github-profile-pacman@main
+      - name: Generate Pacman SVG
+        uses: Platane/snk@v3
         with:
           github_user_name: sneh-kheni
+          outputs: |
+            output/pacman.svg?color_snake=#ff0&color_dots=#000&mode=pacman
 
-      - name: Save pacman graph
-        run: |
-          mkdir -p output
-          mv pacman-contribution-graph.svg output/pacman-contribution-graph.svg
-
-      - name: Commit and push files
+      - name: Commit Pacman SVG
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add output/pacman-contribution-graph.svg
-          git commit -m "Update pacman graph" || echo "No changes to commit"
+          git add output/pacman.svg
+          git commit -m "Update Pacman graph" || echo "No changes"
           git push
