@@ -113,80 +113,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&lines=%F0%9F%92%BB+CURRENTLY+CRAFTING+%F0%9F%92%BB;%F0%9F%94%A5+INNOVATION+IN+PROGRESS+%F0%9F%94%A5" alt="Current Work" />
 
-</div>
-
-```python
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-class SnehKheni:
-    """
-    🚀 Elite Developer Profile 🚀
-    Turning caffeine into code since [YEAR]
-    """
-    
-    def __init__(self):
-        self.name = "Sneh Kheni"
-        self.role = "Full Stack Developer & AI Architect"
-        self.location = "🌍 Earth (Surat, Gujarat, India)"
-        self.workspace = {
-            "os": "🐧 Linux",
-            "editor": "⌨️ VS Code + PyCharm",
-            "terminal": "💻 Zsh with Oh-My-Zsh",
-            "desktop": "🖥️ Multi-Monitor Setup"
-        }
-        self.current_status = "🔥 Building the Future"
-        
-    @property
-    def tech_stack(self):
-        return {
-            "languages": ["Python", "C++", "Java", "Dart", "C"],
-            "mobile": ["Flutter", "Android Native"],
-            "ai_ml": ["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy"],
-            "cloud": ["AWS", "Firebase", "Docker", "Kubernetes"],
-            "databases": ["PostgreSQL", "MongoDB", "Firebase Realtime DB"],
-            "tools": ["Git", "Linux", "CI/CD", "Agile"]
-        }
-    
-    @property
-    def current_focus(self):
-        return [
-            "🤖 Advanced AI/ML Models",
-            "📱 Cross-Platform Mobile Apps",
-            "☁️ Cloud-Native Architecture",
-            "🔐 Cybersecurity & Encryption",
-            "🌐 Scalable Distributed Systems"
-        ]
-    
-    @property
-    def learning_now(self):
-        return [
-            "🧠 Deep Learning & Neural Networks",
-            "⛓️ Blockchain & Web3 Technologies",
-            "🏗️ System Design & Architecture",
-            "🎯 MLOps & Model Deployment",
-            "🚀 Rust Programming Language"
-        ]
-    
-    def say_hi(self):
-        return """
-        ╔════════════════════════════════════════════════╗
-        ║  👋 Thanks for dropping by!                    ║
-        ║  💡 Let's collaborate on something amazing!    ║
-        ║  🚀 Always open to innovative projects!        ║
-        ╚════════════════════════════════════════════════╝
-        """
-    
-    def life_motto(self):
-        return "Code. Create. Innovate. Repeat. 🔄"
-
-
-# Initialize the developer
-if __name__ == "__main__":
-    sneh = SnehKheni()
-    print(sneh.say_hi())
-    print(f"💫 Motto: {sneh.life_motto()}")
-```
 
 <div align="center">
 
@@ -331,3 +257,4 @@ if __name__ == "__main__":
 ### 🎯 Keep Coding • Keep Creating • Keep Innovating 🎯
 
 </div>
+
